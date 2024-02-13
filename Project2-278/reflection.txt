@@ -1,0 +1,48 @@
+Write a few sentences about your coding experience here 
+(The difficulty level of this homework for you, if there are any problems you faced, how you solved them, etc.))
+ (at least five sentences to get full points )
+
+Your reflection :
+
+    My coding expirence was nothing short of bumpy. This is quite the opposite from the last coding project,
+        but unfourtounatly that is just how to cookie crumbles. I had the most trouble with the FindText() function.
+        As you can see through my submissions, I tried to do this function a plethora of different ways all stemming
+        from the same idea of how to solve it. After hours of trial and error the day I started this project, I sat
+        on the issue and called it a day. The following day I asked a friend how he did it. He informed me of a little
+        thing called .find(). With this new knowledge I still decidied to go with my origional way of writing the 
+        method because I sunk so much time and effort into doing it that specific way, I couldnt give it up. After
+        having so much trouble with that everything else was okay except for accomidating to zylab and separating everything
+        into their repective files. Zylab just loves being picky with the tests and gave me some trouble, marking tests wrong 
+        that shouldn't have been. So I had to spend some time rewiting and reconfiguring my code so it would work in zylab.
+        Personally I think this is ridiculous because if my code works, the program grading me should be able to use it. 
+        I should not have to waste my time and rewrite code that works perfectly fine to acustom to the grading program. 
+        You can see the trouble I had in my sumbission trace. Other than those two things. I had some trouble configuring
+        everything into their respective files. This was the least stressful of all of my problems, but still worth
+        mentioning because it did take some time to solve. The only reason I had an issue with this step is because 
+        I had the main method in both main.cpp and assist_functions.cpp. 
+
+    I solved my coding problems a plethora of ways. Mainly I will ruber ducky debug, add debug print statements, 
+        google things, and ask friends if I am having a lot of trouble. To solve my FindText() method I basically
+        deleted the whole method multiple times and completely rewrote it from scratch. I did this a few times, but
+        all attempts consisted of parsing all words into a vector and comparing from there. To solve my issue with 
+        zylab that was a bunch of hail-mary attempts. This is because the code worked fine in Vscode, but zylab didn't
+        like it. This was espically fustrating because not only should the code work, but I have no clue how the zylab
+        testing works. So, that means I had to guess, with the very little knowdge I have, how zylab works and why it 
+        was giving me this error. This combined with the error message, that makes zero sense to me because I don't
+        know what zylab is doing in the background, made this especially fustrating. To solve the issues I had when
+        separating my code into its respective files and building the makefile. That was a bunch of trial and error,
+        and reading the error messages. I had a bunch of warnings comparing ints as well so it made the error trace
+        quite hard to read and confusing. Due to this to took me some time to figure out my problem and handle it
+        appropriately. 
+        
+    I believe a lot of the problems I was having could be solved one of three ways. The first way is to have a more 
+        lient grading system, that allows some flexibility and is able to use the code provided. The second way is to 
+        make very very very detailed instructions on what to write for each file down to the function and how data
+        should be processed and handeled. This would have saved some of my time as it seems that a lot of the time 
+        I spent on this project was not my fault but zylabs fault, but I had to pay for these inpurities on my own 
+        account with my time, which I do not have a lot of to be throwing away like this. The third way to avoid
+        these problems for students in the future is to ditch zylab all together. Have the students submit their
+        code to canvas and grade it the old fashioned way. Now, of course you will have to add more thorough and 
+        detailed instructions. 
+
+    Overall: the dificulty was a 8/10. 10 being on par to the hardest coding project I have done personally.

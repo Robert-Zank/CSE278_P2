@@ -1,0 +1,42 @@
+
+Instructions
+1. After completing your application, run cpplint.py on the shell for each cpp file. 
+>>>> python3 cpplint.py yourfilename.cpp  
+2. Copy your cpplint.py result as a text (not screenshot) and  paste here. (check the rubric on the manual test)
+
+You can ignore the following errors
+1.Pass by reference errors
+2.Line length longer than 80 characters.
+
+// Filename : main.cpp
+// Result of the cpplint
+/Users/robertjamesthomaszank/Desktop/cse270c/code/CSE278/Project2-278/cpplint.py:52: DeprecationWarning: module 'sre_compile' is deprecated
+  import sre_compile
+Done processing main.cpp
+
+// Filename : assist_functions.cpp
+// Result of the cpplint
+/Users/robertjamesthomaszank/Desktop/cse270c/code/CSE278/Project2-278/cpplint.py:52: DeprecationWarning: module 'sre_compile' is deprecated
+  import sre_compile
+assist_functions.cpp:9:  Is this a non-const reference? If so, make const or use a pointer: std::string& input  [runtime/references] [2]
+assist_functions.cpp:28:  Is this a non-const reference? If so, make const or use a pointer: std::string& input  [runtime/references] [2]
+assist_functions.cpp:67:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+assist_functions.cpp:70:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+assist_functions.cpp:86:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+assist_functions.cpp:89:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+assist_functions.cpp:114:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+assist_functions.cpp:150:  Is this a non-const reference? If so, make const or use a pointer: std::string& inputTxt  [runtime/references] [2]
+assist_functions.cpp:155:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+assist_functions.cpp:4:  /Users/robertjamesthomaszank/Desktop/cse270c/code/CSE278/Project2-278/assist_functions.cpp should include its header file /Users/robertjamesthomaszank/Desktop/cse270c/code/CSE278/Project2-278/assist_functions.h  [build/include] [5]
+Done processing assist_functions.cpp
+Total errors found: 10
+
+// Filename : assist_functions.h
+// Result of the cpplint
+/Users/robertjamesthomaszank/Desktop/cse270c/code/CSE278/Project2-278/cpplint.py:52: DeprecationWarning: module 'sre_compile' is deprecated
+  import sre_compile
+assist_functions.h:8:  Is this a non-const reference? If so, make const or use a pointer: std::string& input  [runtime/references] [2]
+assist_functions.h:9:  Is this a non-const reference? If so, make const or use a pointer: std::string& input  [runtime/references] [2]
+assist_functions.h:14:  Is this a non-const reference? If so, make const or use a pointer: std::string& inputTxt  [runtime/references] [2]
+Done processing assist_functions.h
+Total errors found: 3
